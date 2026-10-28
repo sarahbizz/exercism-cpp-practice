@@ -27,5 +27,17 @@ class Alien {
          return true;
       }
    }
+
+   int teleport(int x_new, int y_new){
+      int x_coordinate = x_new;
+      int y_coordinate = y_new;
+      return true;
+   }
+
+   bool collision_detection(Alien alien){
+      return alien.x_coordinate == x_coordinate && alien.y_coordinate == y_coordinate;
+   }
+
+
    }; //end class
 }
